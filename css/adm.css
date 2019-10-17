@@ -1,0 +1,292 @@
+.login_adm{
+    width: 100%;
+    height: 100%;
+    background: #f29c1b;
+    background: -webkit-linear-gradient(#f29c1b, #ff3700);
+    position: absolute;
+    /* opacity: 0.9; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    /* display: none; */
+}
+.caixa_login_adm{
+    /* background: #f29c1b; */
+    height: 40%;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    font-size: 20px;
+    color: #fff;
+    border: 2px solid #ccc;
+}
+.area_input input{
+    height: 30px;
+    width: 100%;
+    /* background: #8bdd65; */
+}
+.area_input, .area_button{
+    width: 100%;
+    /* background: #333; */
+    display: flex;
+    justify-content: center;
+    height: 30px;
+    padding: 1%;
+}
+
+.caixa_login_input button{
+    height: 30px;
+    width: 50%;
+    border-radius: 3px;
+    border: 2px soli #ddd;
+
+}
+.caixa_login_input input, .caixa_login_input button{
+    height: 100%;
+    border: #222;
+
+} 
+
+.area_eventos{
+    width: 100%;
+    /* background: #8bdd65; */
+    display: flex;
+    /* padding-left: 10%; */
+    /* margin-right: 10%; */
+    justify-content: space-between;
+    
+}
+
+.horas_trabalhadas{
+    margin: 0;
+	width: 100%;
+}
+
+
+.topo_tabela{
+    font-size: 30px;
+}
+.nome_user{
+    /* background: #8bdd65; */
+    
+    width: 80%;
+    display: flex;
+    align-content: center;
+    font-size: 18px;
+    padding-left: 3%;
+}
+.dascricao_user{
+    color: #222;
+    margin-left: 3%;
+    width: 25%;
+    /* height: 300px; */
+    background: #ddd;
+    margin-top: 1%;
+    margin-bottom: 1%;
+
+    /* font-size: 20px; */
+    border-radius: 3px;
+}
+
+.nome_user:hover{
+    background: #fff;
+    color: #333;
+}
+
+
+/*
+    height: 100%;
+    width: 30px;
+    color: #777;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    border-radius: 100%;
+}
+
+.dascricao_user i:hover{
+    background: #f29c1b;
+    color:#222;
+} */
+.tabela_dados_usuario{
+    width: 65%;
+    margin-right: 6%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.filtro_todo{
+    width: 100%;
+    /* display: none; */
+}
+.filtro{
+	height: 50px;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    /* display: none; */
+}
+
+.filtro label{
+    margin: 0 3% 0 1%;
+}
+
+.filtro button, .filtro input{
+    height: 60%;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-family: 'Courier New', Courier, monospace;
+} 
+
+/* .filtro input{
+	border: 1px solid #feb;
+	border-radius: 3px;
+} */
+
+.validacao{
+	height: 100%;
+	width: 100%;    
+	/* display: none; */
+}
+
+.btn_validacao{
+	height: 100%;
+	/* widows: 100%; */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.barra_ator_adm{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 20px;
+    /* display: none; */
+    /* background-color: #efc; */
+}
+
+.topo_conta_adm{
+    width: 100%;
+    font-size: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    /* background-color: #ef7; */
+}
+
+.botao_add_conta{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	width: 30%;
+	height: 60%;
+	font-size: 20px;
+	border-radius: 4px;
+    /* display: none; */
+}
+.area_inputs_linha{
+    height: 50px;
+    width: 100%;
+    display: none;
+    
+}
+.area_inputs{
+    
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+.area_inputs label{
+    width: 20%;
+    height: 100%;;
+    display: flex;
+    justify-content: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    /* background-color: #f29c1b; */
+}
+.area_inputs label input, .area_inputs label button{
+    height: 30px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    
+}
+
+.area_inputs label button{
+    width: 50%;
+    height: 35px;
+    border: 1px solid #8bdd65;
+    background-color: #8bdd65;
+    color: #fff;
+    font-size: 20px;
+}
+.descricao_conta, .entradas_conta{
+    height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+    align-items: center;
+    
+    /* background-color: #3ed;  */
+}
+
+.nome_ator, .usuario_ator, .acoes, .input_nome, .input_usuario, .input_senha{
+    width: 30%;
+    height: 40px;
+    /* background-color: #fec; */
+    text-align: center;
+}
+
+.nome_topo, .usuario_topo, .acoes_topo{
+    width: 30%;
+    /* height: 40px; */
+    /* background-color: #fec; */
+    text-align: center;
+}
+
+.acoes{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+}
+.btn_icone:hover{
+    background-color: #ccc;
+    border: 2px solid #fff;
+    color: #fff;
+    
+}
+/* .btn_icone{
+    height: 30px;
+    width: 30px;
+    font-size: 15px;
+    border: 2px solid #f29c1b;
+    border-radius: 100%;
+    display: flex;
+    justify-content: centier;
+    align-items: center;
+    margin: 1%;
+} */
+
+.entradas_conta input{
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    height: 30px;
+
+}
+.entradas_conta{
+    /* display: none; */
+}
