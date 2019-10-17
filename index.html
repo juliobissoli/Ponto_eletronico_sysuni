@@ -1,0 +1,104 @@
+
+<html>
+<title>Ponto Eletrônico</title>
+	<link rel="shortcut icon" HREF="imagens\logo_comprimida.png"/>
+
+<head>
+
+<meta charset="UTF-8">
+<link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Barlow&display=swap" rel="stylesheet">
+<link rel="stylesheet" type="text/css" href="css\principal.css" /> 
+<link href="css\icones\css\all.css" rel="stylesheet"> <!--load all styles -->
+
+<script src="js\jquery.min.js"></script>
+<!-- <script src="ponto.js"></script> -->
+<script src="js\eventos.js"></script>
+<script src="js\funcionalidades.js"></script>
+
+</head>
+
+<body>
+	<div class="topo">
+		<div class="area_logo">
+			<div class="logo">
+				<img src="imagens\logo.png">
+			</div>
+		</div>
+		
+		<div class="barra_topo">
+			Ponto eletrônico SYSUNI
+		</div>
+	
+	</div>
+
+	<div class="duas_caixas">
+		<div class="caixa_esquerda">
+			<div class="caixa_login">
+				Selecione o seu nome:
+
+				<form id="form_selecao">
+					<select id="selecao" name="selecao_opcoes">
+						<option value="nenhum">Nenhum</option>
+						<option value="adm"><a href="/pagina_adm.html">Administrador</a></option>
+					</select>
+								
+				</form >
+			</div>
+		</div>
+
+		<div class="caixa_direita">
+			<div class="botao">
+				<div class="btn_start"> Começar a Trabalhar </div>
+			</div>
+
+			<div class="validacao">
+				<div class="btn_validacao"> Senha:<input id ="senha"type="password"><button id="btn_validacao">ir</button></div>
+			</div>
+		</div>
+	</div>
+
+	<div class="area_delimitada">
+		<!-- <div class="filtro">
+			<label > inicio:<input type="date" id="filtro_ini"> </label> 
+			
+			<label> 
+				fim:<input type="date" id="filtro_fim"> 
+				<button id ="filtro_adm">Vai teiaaaaaaa</button>
+			</label> 
+		</div> -->
+		
+		<div class="qtd_horas"></div>
+
+		<div class="horas_trabalhadas">
+			<div class="topo_tabela">
+				<div class="linha_sup_titula_tab">
+					<div class="btn_icone" id="btn_icone_imprime"><i class="fas fa-print"></i></div>
+					<div class="titulo_relatorio" id="relatorio_titulo_nome"></div>
+				</div>
+					
+				<div class="linha_relatorio">
+					<div class="linha titulo">
+						<div class="celula_relatorio">Periodo</div>
+						<div class="celula_relatorio">Horas trabalhadas</div>
+					</div>
+				</div>
+				
+				<div class="linha_relatorio">
+					<div class="linha titulo">
+						<div class="celula_relatorio">
+							De :<input type="date" id="filtro_ini" class="filtro_toppo" value="2019-09-01"> 
+							a <input type="date" class="filtro_toppo" id="filtro_fim" value="2019-09-12">
+							<button id="btn_filtro" class="filtro_toppo">ir</button>
+						</div>
+						
+						<div class="celula_relatorio" id="relatorio_horas_tot"></div>
+					</div>
+				</div>		
+			</div>
+			
+		
+		</div>
+	</div>
+</body>
+</html>
